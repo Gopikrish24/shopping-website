@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+.parent-0{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(233, 30, 99);
+    display: flex;justify-content: center;
+    align-items: end;
+    font-size: 12px;
+    color: white;
+}
+.z0{
+    width: 56%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.z1{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.parent-1{
+    width: 100%;
+    height: 50px;
+    color:rgb(135, 135, 135);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.a1{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.b1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(135, 135, 135);
+}
+.s-b1{
+    color:red ;
+}
+.s-b2{
+    color:black;
+}
+.s-b2:hover{
+    color: aquamarine;
+}
+.c1{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+.c7{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.parent-2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    /* margin-left: 400px; */
+}
+
+.nn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+ul{
+    color: black;
+    width: 60%;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.aa{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.d2{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.d1{
+    width:80px ;
+    height: 20px;
+   
+}
+.im1{
+    width: 80px;
+    height: 20px;
+}
+.parent3{
+    width: 100%;
+    height: 125px;
+    background-color: black;
+    background-image:url(https://images.pexels.com/photos/2767689/pexels-photo-2767689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.parent-4{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding-top: 35px;
+}
+.sp-1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f0{
+    width: 30%;
+    height: 90%;
+    background-color: blue;
+    background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/files/cat-01.jpg?v=1652069818&width=600);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.f1{
+    width: 30%;
+    height: 90%;
+    background-color: yellow;
+    background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/files/cat-02.jpg?v=1652069818&width=600);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.f2{
+    width: 30%;
+    height: 90%;
+    background-color: green;
+    background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/files/cat-03.jpg?v=1652069818&width=600);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+    padding-bottom: 25px;
+}
+.bu0{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.bu1{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.bu2{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.bu0:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.bu1:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.bu2:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.parent-5{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding-bottom: 45px;
+}
+.sp-2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.g0{
+    width: 30%;
+    height: 90%;
+    background-color: blue;
+    background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/files/cat-04.jpg?v=1652069818&width=600);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.g1{
+    width: 30%;
+    height: 90%;
+    background-color: yellow;
+    background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/files/cat-05.jpg?v=1652069818&width=600);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.g2{
+    width: 30%;
+    height: 90%;
+    background-color: green;
+    background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/files/cl13_400x_fe793a6a-c1b2-46bc-9753-c1c760ebaf52.jpg?v=1652069599&width=600);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+    padding-bottom: 25px;
+}
+.cu0{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.cu1{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.cu2{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.cu0:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.cu1:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.cu2:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.parent-6{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sp3{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+.h1{
+    width: 21%;
+    height: 100%;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    /* justify-content: center; */
+    
+    /* align-items: center; */
+}
+.h2{
+    width: 16%;
+    height: 100%;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.h3{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.h4{
+    width: 16%;
+    height: 100%;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.h5{
+    width: 21%;
+    height: 100%;
+    background-color: rgb(246, 246, 248);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 30px;
+}
+.sh2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sh4{
+    color: yellow;
+}
+.imgsh1{
+    display: flex;
+    /* justify-content: center; */
+    width: 40%;
+    height:30px;
+    /* padding-top: 20px; */
+}
+.sh5{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+.sh6{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    color: gray;
+    border-radius: 35px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+}
+.sh7{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    border: none;
+    text-align: center
+}
+.sh10{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 30px;
+}
+.sh10 h3{
+    color: white;
+}
+.parent-7{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+}
+.sp4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.si2 ul{
+    color: grey;
+    width: 60%;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.si11{
+    color:rgb(86, 207, 225); ;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.si22{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.si33{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.si44{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.si1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.si2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.si3{
+    color:rgb(86, 207, 225);
+}
+.si4{
+    color: black;
+}
+.si22:hover{
+    color:rgb(86, 207, 225);
+    transition: 0.5s;
+}
+.si33:hover{
+    color:rgb(86, 207, 225);
+    transition: 0.5s;
+}
+.si44:hover{
+    color:rgb(86, 207, 225);
+    transition: 0.5s;
+}
+.aa:hover{
+    color:rgb(86, 207, 225);
+    transition: 0.5s;
+}
+.a2:hover{
+    color:rgb(86, 207, 225);
+    transition: 0.5s;
+}
+.a4:hover{
+    color:rgb(86, 207, 225);
+    transition: 0.5s;
+}
+.parent-3 h3{
+    font-style: italicc;
+}
